@@ -1,0 +1,23 @@
+{
+  "name": "saucedemo-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.10",
+    "chai": "^4.3.10",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.7"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1"
+  }
+  
+}
