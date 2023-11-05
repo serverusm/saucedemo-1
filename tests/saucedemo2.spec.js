@@ -27,7 +27,7 @@ test('purchase 2 items and validate order details', async ({ page }) => {
 
     // Ir al carrito de compras
     await page.locator('a.shopping_cart_link').click();
-    //await page.locator('#cart_contents_container .cart_contents_container').waitForCount(itemsToPurchase);
+    await page.locator('#cart_contents_container .cart_contents_container').waitForCount(itemsToPurchase);
 
     // Validar nombres de los artículos en el carrito
     const cartItemNames = await page.locator('.cart_contents_container .inventory_item_name').all()
